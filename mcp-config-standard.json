@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "weather": {
+      "transport": "http",
+      "url": "http://localhost:8080",
+      "reconnect": {
+        "enabled": true,
+        "maxAttempts": 5,
+        "delayMs": 2000
+      },
+      "automaticSSEFallback": false
+    }
+  }
+} 

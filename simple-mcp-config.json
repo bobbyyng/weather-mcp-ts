@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "weather-simple": {
+      "command": "curl",
+      "args": [
+        "-X", "POST",
+        "http://localhost:8080/mcp",
+        "-H", "Content-Type: application/json",
+        "-d"
+      ],
+      "env": {}
+    }
+  }
+} 
